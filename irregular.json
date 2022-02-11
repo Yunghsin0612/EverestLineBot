@@ -1,0 +1,105 @@
+{
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "url": "https://scontent-hkt1-2.xx.fbcdn.net/v/t39.30808-6/262544239_5071201852913323_8851836889078425103_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=730e14&_nc_ohc=b-vwWIJgGKsAX_nQHE3&_nc_ht=scontent-hkt1-2.xx&oh=d111c409c5ee9a9804cff8bc1b1ad3f3&oe=61AC83FC",
+    "size": "full"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "separator",
+        "margin": "sm"
+      },
+      {
+        "type": "text",
+        "text": "異常",
+        "size": "xxl",
+        "weight": "bold",
+        "align": "center",
+        "gravity": "center",
+        "margin": "sm"
+      },
+      {
+        "type": "separator",
+        "margin": "sm"
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "button",
+        "action": {
+          "type": "message",
+          "label": "穩定度異常",
+          "text": "穩定度"
+        },
+        "color": "#8B6969",
+        "style": "primary"
+      },
+      {
+        "type": "separator"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "message",
+          "label": "高耗電",
+          "text": "高耗電"
+        },
+        "color": "#8B6969",
+        "style": "primary"
+      },
+      {
+        "type": "separator"
+      },
+            {
+        "type": "button",
+        "action": {
+          "type": "message",
+          "label": "掉電過快",
+          "text": "掉電"
+        },
+        "color": "#8B6969",
+        "style": "primary"
+      },
+      {
+        "type": "separator"
+      },
+            {
+        "type": "button",
+        "action": {
+          "type": "message",
+          "label": "電量震盪過大",
+          "text": "震盪"
+        },
+        "color": "#8B6969",
+        "style": "primary"
+      },
+            {
+        "type": "separator"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "VIEW DETAIL",
+          "uri": "https://everestonlypage.herokuapp.com/prediction/"
+        },
+        "color": "#8B6969",
+        "style": "primary"
+      }
+    ],
+    "backgroundColor": "#EEE5DE",
+    "cornerRadius": "xs",
+    "spacing": "sm",
+    "margin": "sm",
+    "borderWidth": "semi-bold",
+    "paddingAll": "lg"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "url": "https://scontent-hkt1-2.xx.fbcdn.net/v/t39.30808-6/262501399_5071201836246658_5851234167762420759_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=730e14&_nc_ohc=vaDXynKSkaQAX8fiJwG&_nc_ht=scontent-hkt1-2.xx&oh=0b6394b81db542bf300e3d9299d68a3e&oe=61AD0A52",
+    "size": "full"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "separator"
+      },
+      {
+        "type": "text",
+        "text": "低電量資訊",
+        "size": "xxl",
+        "margin": "lg",
+        "weight": "bold",
+        "align": "center",
+        "offsetTop": "xs"
+      },
+      {
+        "type": "separator",
+        "margin": "lg"
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "button",
+        "action": {
+          "type": "message",
+          "label": "卡號&電量",
+          "text": "低電量資訊"
+        },
+        "style": "primary",
+        "color": "#8B6969"
+      },
+      {
+        "type": "separator"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "message",
+          "label": "預測沒電結果",
+          "text": "預測"
+        },
+        "style": "primary",
+        "color": "#8B6969"
+      },
+      {
+        "type": "separator"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "message",
+          "label": "昨日 可用低電量定位卡比例",
+          "text": "昨日比例"
+        },
+        "style": "primary",
+        "color": "#8B6969"
+      },
+      {
+        "type": "separator"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "message",
+          "label": "整體 可用低電量定位卡比例",
+          "text": "整體比例"
+        },
+        "color": "#8B6969",
+        "style": "primary"
+      },
+      {
+        "type": "separator"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "VIEW DETAIL",
+          "uri": "https://everestonlypage.herokuapp.com/"
+        },
+        "color": "#8B6969",
+        "style": "primary"
+      }
+    ],
+    "spacing": "md",
+    "margin": "md",
+    "backgroundColor": "#EEE5DE",
+    "borderColor": "#EEE5DE",
+    "cornerRadius": "xs"
+  }
+}
